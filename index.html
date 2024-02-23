@@ -17,13 +17,13 @@
 
         <nav>
             <ul class="icons">
-                <li><img src="images/github-mark.png"></li>
-                <li><img src="images/linkedin.png"></li>
+                <li><a href="https://github.com/seuneo" target="_blank"><img src="images/github-mark.png"></a></li>
+                <li><a href="https://www.linkedin.com/in/seuneolota" target="_blank"><img src="images/linkedin.png"></a></li>
             </ul>
             <ul class="links">
-                <li>ABOUT</li>
-                <li>PROJECTS</li>
-                <li>CONTACT</li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#projects">PROJECTS</a></li>
+                <li><a href="#contact">CONTACT</a></li>
             </ul> 
         </nav>
         <div class="intro">
@@ -36,13 +36,13 @@
 
         </div>
 
-        <div class="about">
+        <div class="about" id="#about">
             <div class="aboutme">
             <p class="header">About me</p>
             <p>I am a freelance full stack web developer and recent computer science graduate from York University.</p>
             </div>
             <div class="grad">
-            <p class="header">Since Graduating</p>
+            <a href="files/SeunOlotaResume.pdf" download="SeunOlotaResume"><p class="grad-header">Since Graduating</p></a> 
             <p>Coding Instructor at The Cube School. <br/>
                 Hosting robotics team building events with Ignite Tech Play at Shopify.<br/>
                 Previously worked as a CMS Admin at Quest Sports.</p>
@@ -54,9 +54,23 @@
             </div>          
         </div>
 
-        <div class="projects">
-            <div class="project" id="projectone">
-                <div class="image"></div>
+        <div class="projects" id="projects">
+            <a href="https://seuneo.github.io/wordle/" target="_blank">
+                <div class="project" id="projectone">
+                    <div class="image"><img src="images/wordle.png"></div>
+                    <div class="info">
+    
+                        <p class="stack">JavaScript HTML CSS</p>
+                        <div>
+                        <p class="title">Wordle <span class="material-symbols-outlined">
+                            north_east
+                            </span></p><span class="button">Visit Website</span>
+                        </div>
+                    </div>
+                </div>
+                </a>
+            <div class="project" id="projecttwo"> 
+                <div class="image"> COMING SOON</div>
                 <div class="info">
                     <p class="stack">Tech Stack</p>
                     <div>
@@ -66,31 +80,22 @@
                     </div>
                 </div>
             </div>
-            <div class="project" id="projecttwo">
-                <div class="image"></div>
-                <div class="info">
-                    <p class="stack">Tech Stack</p>
-                    <div>
-                    <p class="title">Project <span class="material-symbols-outlined">
-                        north_east
-                        </span></p><span class="button">Visit Website</span>
-                    </div>
-                </div>
-            </div>
+            
             <div class="project" id="projectthree">
-                <div class="image"><img src="images/wordle.png"></div>
+                <div class="image"> COMING SOON</div>
                 <div class="info">
-
-                    <p class="stack">JavaScript HTML CSS</p>
+                    
+                    <p class="stack">Tech Stack</p>
                     <div>
-                    <p class="title">Wordle <span class="material-symbols-outlined">
+                    <p class="title">Project <span class="material-symbols-outlined">
                         north_east
                         </span></p><span class="button">Visit Website</span>
                     </div>
                 </div>
             </div>
+            
             <div class="project" id="projectfour">
-                <div class="image"></div>
+                <div class="image">COMING SOON</div>
                 <div class="info">
                     
                     <p class="stack">Tech Stack</p>
@@ -103,7 +108,7 @@
             </div>
 
         </div>
-        <div class="contact">
+        <div class="contact" id="contact">
             <p class="title">Let's Work Together!</p>
 
             <div class="contacts">
@@ -116,7 +121,7 @@
 
         
 
-<script src="./scripts/scripts.js"></script>
+<script src="scripts.js"></script>
 <!--
 <a href="https://www.flaticon.com/free-icons/linkedin" title="linkedin icons">Linkedin icons created by Freepik - Flaticon</a>--> 
 </body>
