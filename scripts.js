@@ -1,7 +1,6 @@
 var resume = document.querySelector(".grad-header");
 
 resume.onmouseenter = function(){
-
     resume.innerHTML = "Download resume<span class=\"material-symbols-outlined\"> file_save</span>"; 
 };
 
