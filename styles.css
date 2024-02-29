@@ -10,16 +10,6 @@ body {
 
 }
 
-/*
-body{
-    background-color: rgb(13, 13, 13);
-
-}
-*/
-
-
-
-
 nav {
     margin:0px;
     font-size: 14px;
@@ -41,16 +31,9 @@ nav {
     margin-right: -10px;
 }
 
-.links{
-    
-    
-}
-
 .links li a{
     text-decoration: none;
     color:black;
-    
-
 }
 
 .links li{
@@ -58,17 +41,12 @@ nav {
    text-decoration-color: rgba(0, 0, 0, 0);
    text-underline-offset: 1px; 
    transition: text-decoration-color 0.5s, text-underline-offset 0.5s;
-   
-
 }
 
-.links li:hover{
-   
+.links li:hover{   
     text-decoration-color: rgb(0, 0, 0);
-    text-underline-offset: 6px; 
-    
+    text-underline-offset: 6px;     
  }
-
 
 nav ul{
     
@@ -78,21 +56,15 @@ nav ul{
      padding:0;
     margin: 0;
     padding-top: 11px;
-    padding-bottom: 11px;
-
-    
+    padding-bottom: 11px;    
 }
 
 .links{
-    padding-right:80px;
-    
-   
-    
+    padding-right:80px; 
 }
 
 .icons{
-    padding-left: 80px;  
-  
+    padding-left: 80px;    
 }
 
 
@@ -121,7 +93,6 @@ nav ul{
 .animate {
     animation-delay: 1s;
     animation-duration: 0.5s;
-
     animation-fill-mode: both;
     -webkit-animation-duration: 1s;
     -webkit-animation-fill-mode: both
@@ -143,15 +114,13 @@ nav ul{
     flex-direction: column;
     align-items: center;  
     justify-content: center;
-    padding-top: 12rem;
-    
+    padding-top: 12rem;    
 }
 
 
 .intro div{
    margin: 0 40px;
-    padding: 0 40px; 
-    
+    padding: 0 40px;   
 }
 
 .intro p{
@@ -310,7 +279,6 @@ nav ul{
 }
 
 
-
 .projects .project .info div{
     display: flex;
     justify-content: space-between;
@@ -453,17 +421,6 @@ nav ul{
     text-underline-offset: 6px; 
     
  }
-
- /*
-
- .contact .contacts p a{
-    color: rgb(237, 237, 237); 
- }
-
- *{
-    color: rgb(237, 237, 237);
- }
-*/
 
 @media (max-width: 1360px){
     .projects #projecttwo{
