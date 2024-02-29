@@ -286,8 +286,8 @@ nav ul{
 }
 
 .projects{
- margin-top:-10rem;
- padding-top: 10rem;
+ margin-top:-4rem;
+ padding-top: 4rem;
  display: flex;
  flex-wrap: wrap;
  justify-content: center;
@@ -321,9 +321,7 @@ nav ul{
     width: 100%;
     height: 400px;
     background-color: rgb(244, 244, 244);
-
     transition:  padding 0.5s;
-
     font-size: 40px;
     color:rgb(209, 209, 209);
     text-align: center;
@@ -337,7 +335,7 @@ nav ul{
 
 }
 .projects .project .stack{
-    margin: 0.7rem 0;
+    margin:0.7rem 0;
 
 }
 
@@ -374,7 +372,7 @@ nav ul{
 
 .projects #projectone .image{
     height: 500px;
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
     background-color: rgba(255, 255, 255, 0);
 }
 
@@ -387,10 +385,27 @@ nav ul{
 
 }
 
+.projects #projecttwo .image{
+    height: 500px;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+#projecttwo img{
+    width: 500px;;
+}
+
 .projects #projectthree{
     margin-top: -250px;
     width: 400px;
 
+}
+
+.projects #projectthree .image{
+    background-image: url(images/scheduler.png);
+}
+
+.projects #projectfour .image{
+    background-image: url(images/hobbylogs.png);
 }
 
 
@@ -458,11 +473,13 @@ nav ul{
     .projects #projectthree {
         margin-top: 0;
 
+    }
 
+    .projects #projecttwo{
+        margin-bottom: 150px;
     }
 
 }
-
 
 
 @media (max-width: 1100px){
@@ -476,9 +493,7 @@ nav ul{
     }
 
     .intro h1{
-        text-align: center;
-        
-        
+        text-align: center;     
     }
 
     .intro h2{
@@ -501,15 +516,15 @@ nav ul{
         padding-left: 40px;
     }
 
+    .projects #projecttwo{
+        margin-bottom: 150px;
+    }
+
 }
 
 @media (max-width: 800px){
     .about p{
         font-size: 30px;
-    }
-
-    .intro h1{
-        
     }
 
     .contact{
@@ -528,15 +543,37 @@ nav ul{
     }
 
     .projects #projectone {
-        width: 400px;
-        height: 500px;
-        margin-bottom: 110px;
+        width: 500px;
+        height: 480px;
+        margin-bottom: 180px;
+       
     }
 
-    #projectone .image img{
-        height: 400px;  
+    .projects #projectone .info{
+        margin: 0;
         
+        margin-top: -50px;
+     }
+
+
+    #projectone .image {
+        height: 480px;  
+        margin: 0;       
     }
+
+
+    #projectone .image img{
+        width: 500px;   
+    }
+
+    .projects #projecttwo{
+        margin-bottom: 200px;
+    }
+
+    .projects {
+        display: flex;      
+    }
+
 }
 
 
@@ -549,7 +586,6 @@ nav ul{
     .icons img{
         width: 20px;
     }
-
 
 
     .intro h1{
@@ -576,8 +612,7 @@ nav ul{
         font-size: 30px;
         
     }
-
-    
+ 
     .about .grad{
         
         display: flex;
@@ -586,41 +621,62 @@ nav ul{
     
     }
     
-    
     .about .grad p{
         text-align: left;
         
     }
 
+
+
     .projects{
-        margin-top: -2rem;
-        padding-top: 2rem;
+        margin-top: 400px;
+        padding-top: 6rem;
+       
     }
 
 
-
-    .projects #projectone {
+    .projects #projectone, .projects #projecttwo{
         width: 400px;
-        height: 500px;
-        margin-bottom: 110px;
+        height: 450px;    
+        margin: 0;
+        margin-bottom: 50px;
     }
+
 
     #projectone .image img{
-        height: 400px;  
+        height: 350px;  
         
     }
 
     .projects #projectone .image{
-       margin-bottom: 0;
-
+       height: 350px;
+       margin: 0;
     }
 
-    .projects #projectthree{
-        margin-top: -15px;
-    } 
+    .projects #projectone .info{
+        margin: 0;
+     }
+
+    .projects #projecttwo{
+        margin-bottom: 100px;
+    }
+
+     .projects #projecttwo .image{
+        height: 400px;
+        margin: 0;
+     }
+
+     #projecttwo .image img{
+        width: 400px; 
+    }
 
     .projects #projectfour{
         margin-top: -5px;
+    }
+
+    .projects{
+        display: flex;
+        gap: 80px;
     }
     
 }
