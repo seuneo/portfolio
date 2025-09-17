@@ -114,6 +114,10 @@ nav ul{
 }
     */
 
+.section{
+    padding: 30px 0;
+}
+
 .intro{
    
     padding-top: 12rem; 
@@ -168,19 +172,116 @@ nav ul{
 
 .projects-gallery{
     display: flex;
-    gap: 4rem;
+    gap: 2rem;
     flex-wrap: wrap;
 
 }
 
 .projects-gallery div img{
-    width: 400px;
+    width:100%;
     border-radius: 5px;
 }
 
 .about img{
     width: 300px;
     border-radius: 10px;
+}
+
+.project{
+    width: 350px;
+    
+}
+
+.project-header{
+    padding: 15px 0;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+.project-title{
+    font-size: 16px;
+    font-weight: 600;
+    
+}
+
+.project-buttons{
+    display: flex;
+    gap: 1rem;
+    
+    
+}
+
+.project-buttons button{
+    font-size: 12px;
+    font-weight: 600;
+    padding: 5px 12px;
+    border-radius: 15px;
+    border-width: 1.5px;
+    border-style: solid;
+}
+.project-description{
+    font-size: 12px;
+}
+
+.content{
+    margin: 15px 0;
+}
+
+.about{
+    display: flex;
+    gap: 5rem;
+    flex-wrap: wrap;
+}
+
+.about-text{
+    width: 700px;
+    font-size: 16px;
+}
+
+.about-title{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.about-description{
+
+}
+.about-description p{
+    padding: 0;
+    margin: 0;
+    
+}
+
+.about button{
+    font-size: 12px;
+    font-weight: 600;
+    padding: 5px 12px;
+    border-radius: 15px;
+    border-width: 1.5px;
+    border-style: solid;
+}
+
+
+
+.dev-stack-list{
+    font-size: 12px;
+    display: flex;
+    gap: 2rem;
+    
+
+    
+}
+
+.dev-stack-header{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.dev-stack-list ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
 }
 
 /*
